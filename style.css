@@ -1,0 +1,65 @@
+#weatherDashboard {
+    text-align: center;
+    color: white;
+    background-color: rgb(78, 78, 78);
+    line-height: 70px;
+}
+
+#citySearch{
+    font-style: oblique;
+}
+#leftColumn{
+    background-color: rgba(219, 218, 218, 0.432);
+    padding-right: 10px;
+    padding: 20px
+}
+
+li {
+        margin-left: 5px;
+    padding: 20px;
+    border-style: solid;
+    border-color: rgba(128, 128, 128, 0.308);
+    border-width: thin;
+}
+#currentWeatherDisplay{
+    border-color: rgba(192, 192, 192, 0.247);
+    border-style: groove;
+    margin-left: 20px;
+}
+
+#currentCity.title{
+    font-weight:600 ;
+    font-size: 37px;
+    text-align: left;
+    margin-left: -20px;
+
+}
+
+p {
+    margin: 20px;
+    
+}
+
+span{
+    text-align: left;
+}
+
+#forecastTitle{
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#card-row {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.five-day-card {
+    background-color: rgba(0, 174, 255, 0.521);
+    margin: 5px;
+    border-radius: 10px;
+}
