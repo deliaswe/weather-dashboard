@@ -1,15 +1,20 @@
 #weatherDashboard {
     text-align: center;
     color: white;
-    background-color: rgb(78, 78, 78);
+    background-color: rgb(176, 63, 63);
     line-height: 70px;
+}
+
+/* added background color */
+body {
+        background: linear-gradient(rgb(234, 142, 159), rgb(102, 102, 166));
 }
 
 #citySearch{
     font-style: oblique;
 }
 #leftColumn{
-    background-color: rgba(219, 218, 218, 0.432);
+    background-color: rgba(163, 15, 15, 0.432);
     padding-right: 10px;
     padding: 20px
 }
