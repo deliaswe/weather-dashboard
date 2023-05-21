@@ -20,7 +20,7 @@ $(document).ready(function () {
         axios.get(queryURL)
             .then(function (response) {
                 currentweatherEl.classList.remove("weather-1");
-                
+                // current weather
                 const currentDate = new Date(response.data.dt * 1000);
                 const day = currentDate.getDate();
                 const month = currentDate.getMonth() + 1;
