@@ -77,7 +77,7 @@ $(document).ready(function () {
         localStorage.setItem("search", JSON.stringify(searchHistory));
         renderSearchHistory();
     })
-    
+    // clear history
     clearEl.addEventListener("click", function () {
         localStorage.clear();
         searchHistory = [];
