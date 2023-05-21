@@ -86,7 +86,7 @@ $(document).ready(function () {
     function k2f(K) {
         return Math.floor((K - 273.15) * 1.8 + 32);
     }
-    
+    // render history search 
     function renderSearchHistory() {
         historyEl.innerHTML = "";
         for (let i = 0; i < searchHistory.length; i++) {
