@@ -24,7 +24,7 @@ https://deliaswe.github.io/weather-dashboard/
 
 
 ## Credits
-API was created from https://home.openweathermap.org/api_keys to attain the weather forcast with real time.
+API was created from https://home.openweathermap.org/api_keys to obtain the weather forcast with real time.
 
 ## License
 N/A
