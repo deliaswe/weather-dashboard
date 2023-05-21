@@ -11,7 +11,7 @@ $(document).ready(function () {
     var fivedayEl = document.getElementById("fiveday-header");
     var currentweatherEl = document.getElementById("today-weather");
     let searchHistory = JSON.parse(localStorage.getItem("search")) || [];
-    // Assign API to a variable
+    // Assigned API Key
     const APIKey = "e19790c4b56c6fe20f97afcbae718437";
     // function to get weather forcast for curent day
     function getCityWeather(cityName) {
@@ -20,7 +20,7 @@ $(document).ready(function () {
         axios.get(queryURL)
             .then(function (response) {
                 currentweatherEl.classList.remove("weather-1");
-                // display current weather
+                
                 const currentDate = new Date(response.data.dt * 1000);
                 const day = currentDate.getDate();
                 const month = currentDate.getMonth() + 1;
@@ -77,7 +77,7 @@ $(document).ready(function () {
         localStorage.setItem("search", JSON.stringify(searchHistory));
         renderSearchHistory();
     })
-    // Clears history
+    
     clearEl.addEventListener("click", function () {
         localStorage.clear();
         searchHistory = [];
@@ -86,7 +86,7 @@ $(document).ready(function () {
     function k2f(K) {
         return Math.floor((K - 273.15) * 1.8 + 32);
     }
-    // rendering search history
+    
     function renderSearchHistory() {
         historyEl.innerHTML = "";
         for (let i = 0; i < searchHistory.length; i++) {

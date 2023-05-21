@@ -1,67 +1,72 @@
-#weatherDashboard {
-    text-align: center;
-    color: white;
-    background-color: rgb(176, 63, 63);
-    line-height: 70px;
+h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
 }
 
 /* added background color */
 body {
-        background: linear-gradient(rgb(234, 142, 159), rgb(102, 102, 166));
+        background: linear-gradient(rgb(227, 144, 144), rgb(81, 111, 219));
+}
+
+h2, h3 {
+    font-size: 30px;
+    color: black;
+}
+
+main {
+    margin: 20px;
+}
+
+#aside {
+    margin-top: 50px;
 }
 
 #enter-city{
-    width: 85px;
-}
-#leftColumn{
-    background-color: rgba(163, 15, 15, 0.432);
-    padding-right: 10px;
-    padding: 20px
+    width: 185px;
 }
 
-li {
-        margin-left: 5px;
-    padding: 20px;
-    border-style: solid;
-    border-color: rgba(128, 128, 128, 0.308);
-    border-width: thin;
+#five-day-forcast {
+    margin-left: 15px;
 }
+
+
+#look-up {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: left;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #cdd4d7;
+}
+
 #today-weather {
     background: transparent;
     border: none;
-    color: rgb(7, 7, 7);
+    color: black;
 }
 
-#currentCity.title{
-    font-weight:600 ;
+#city-heading {
     font-size: 37px;
-    text-align: left;
-    margin-left: -20px;
-
 }
 
-p {
-    margin: 20px;
-    
-}
-
-span{
-    text-align: left;
-}
-
-#forecastTitle{
+/* #forecastTitle{
     font-size: 25px;
     font-weight: 500;
     margin-left: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
-}
+} */
 
 #card-row {
     padding-left: 20px;
     display: flex;
     flex-direction: row;
-}
+} 
 
 #search {
     float: left;
