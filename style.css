@@ -10,8 +10,8 @@ body {
         background: linear-gradient(rgb(234, 142, 159), rgb(102, 102, 166));
 }
 
-#citySearch{
-    font-style: oblique;
+#enter-city{
+    width: 85px;
 }
 #leftColumn{
     background-color: rgba(163, 15, 15, 0.432);
@@ -26,10 +26,10 @@ li {
     border-color: rgba(128, 128, 128, 0.308);
     border-width: thin;
 }
-#currentWeatherDisplay{
-    border-color: rgba(192, 192, 192, 0.247);
-    border-style: groove;
-    margin-left: 20px;
+#today-weather {
+    background: transparent;
+    border: none;
+    color: rgb(7, 7, 7);
 }
 
 #currentCity.title{
@@ -63,8 +63,29 @@ span{
     flex-direction: row;
 }
 
+#search {
+    float: left;
+}
+
+/* change search button size */
+#search-button {
+    color: white;
+    margin-top: 10px;
+    width: 190px;
+    background: rgb(224, 238, 242);
+    background: radial-gradient(circle, rgb(170, 190, 207) 0%, rgb(51, 129, 231) 100%);
+}
+
 /* .five-day-card {
     background-color: rgba(0, 174, 255, 0.521);
     margin: 5px;
     border-radius: 10px;
 } */
+
+#clear-history {
+    color: white;
+    margin-top: 10px;
+    width: 190px;
+    background: rgb(224, 238, 242);
+    background: radial-gradient(circle, rgb(170, 190, 207) 0%, rgb(51, 129, 231) 100%);
+}
