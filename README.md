@@ -20,7 +20,8 @@ https://deliaswe.github.io/weather-dashboard/
 
 ## Usage
 
-![screencapture-127-0-0-1-5500-index-html-2023-05-21-14_53_43](https://github.com/deliaswe/weather-dashboard/assets/113808453/41038eb3-c2d6-46db-bca4-b3a47f759bb6)
+![screencapture-deliaswe-github-io-weather-dashboard-2023-05-21-21_46_53](https://github.com/deliaswe/weather-dashboard/assets/113808453/7bd6ccd4-9f34-46bd-9f5c-6b2cf30558cb)
+
 
 
 ## Credits
